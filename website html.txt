@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chocolate Boom Box</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">🍫 Chocolate Boom Box</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#boxes">Our Boxes</a></li>
+        <li><a href="#custom">Customize</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Unbox Happiness, One Chocolate Explosion at a Time!</h1>
+    <p>Handcrafted chocolate boxes that burst with love.</p>
+    <a href="#boxes" class="btn">Shop Now</a>
+  </section>
+
+  <section id="boxes" class="products">
+    <h2>Our Boxes</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="box1.jpg" alt="Mini Boom Box">
+        <h3>Mini Boom Box</h3>
+        <p>Small & sweet. Starting at $14.99</p>
+      </div>
+      <div class="product-card">
+        <img src="box2.jpg" alt="Classic Explosion Box">
+        <h3>Classic Explosion Box</h3>
+        <p>Our best-seller. $24.99</p>
+      </div>
+      <div class="product-card">
+        <img src="box3.jpg" alt="Deluxe Celebration Box">
+        <h3>Deluxe Celebration</h3>
+        <p>Gourmet treats, memories & love – $39.99</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="custom" class="customize">
+    <h2>Design Your Own Box</h2>
+    <p>Make it personal with names, messages & favorite chocolates!</p>
+    <a href="#contact" class="btn">Start Custom Order</a>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Our Story</h2>
+    <p>We believe in magical moments and sweet surprises. Every Chocolate Boom Box is crafted by hand, filled with premium chocolates, and made with ❤️.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="socials">
+      <p>Email: hello@chocolateboombox.com</p>
+      <p>Instagram: @chocolateboombox</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Chocolate Boom Box | Made with ❤️ and chocolate</p>
+  </footer>
+</body>
+</html>
